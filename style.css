@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-success:hover{
+    background-color: goldenrod;
+} 
+
+canvas{
+    animation-name: lala;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lala{
+    from{ 
+        box-shadow: 1px 1px 30px orangered;
+    }
+    to{
+        box-shadow: 1px 1px 30px yellowgreen;
+    }
+}
